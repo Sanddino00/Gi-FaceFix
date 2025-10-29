@@ -16,7 +16,8 @@ py FaceFixV(x).py to make an automatic backup or py FaceFixV(x).py -nobackup do 
 
 
 
-The exe will ask you to either input a filepath or to press enter to use the current one and will ask if it should scan Subfolders for .ini files which need changing. It will show all files which need a change and you will need to press y to start updating the files or n to abort the process
+The exe will use the current one and will ask if it should scan Subfolders for .ini files which need changing. It will show all files which need a change and you will need to press y to start updating the files or n to abort the process.
+You can also exclude folders with mods which either break or don't need an update.
 
 
 
