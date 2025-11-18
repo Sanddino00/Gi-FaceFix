@@ -9,16 +9,15 @@ This should fix the disappearing face textures and weird cirles on the cheeks.
 How to use:
 
 
-Put the Script or .exe in your mod folder or other folder containing the broken mod / mods and run it.
+- Put it inside the mod or character folder.
+- I recommend individual characters folder.
+ - Run py FaceFixV(...).py or if you want no backup of the ini py FaceFix(...).py -nobackup 
+or just run the exe.
+- To exclude folders simply typ the the folder name or names which should be excluded and press enter.
 
-To run the script type:
-py FaceFixV(x).py to make an automatic backup or py FaceFixV(x).py -nobackup do disable the backup.
-
-
-
-The exe will use the current one and will ask if it should scan Subfolders for .ini files which need changing. It will show all files which need a change and you will need to press y to start updating the files or n to abort the process.
-You can also exclude folders with mods which either break or don't need an update.
-
+The script fixes the small rings on character faces, should stop textures on the face like makeup from disappearing after a few seconds and it creats an automatic backup before editing the ini so you can easily fix it if something goes wrong. 
+The script should work with merged mods but I am not to sure about more complex mods.
+If you find any bugs please let me know.
 
 
 Latest\_release: https://github.com/Sanddino00/Gi-FaceFix/releases
